@@ -6,13 +6,13 @@ const postSchema = new mongoose.Schema({
         type:String,
         required:true
     },
-    body:{
+    caption:{
         type:String
     },
     photo:{
         type:String,
-        value:"no photo"
-        // required:true
+        
+        required:true
     },
     postedBy:{
         type:ObjectId,
